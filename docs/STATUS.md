@@ -3,20 +3,22 @@
 **Project:** Zagoorr (formerly Combined CRM) — one system combining HubSpot, Wayfront (formerly SPP / Service Provider Pro), Asana, and Zendesk
 **Owner:** Linkoo
 **Builder:** Muse
-**Last updated:** 2026-11-16 06:02 PST (America/Los_Angeles)
+**Last updated:** 2026-11-16 08:37 PST (America/Los_Angeles)
 **Record Register:** `RECORD_REGISTER.md` in this same folder — full chronological log of previous and coming steps.
 
 ## Current status
 
-**Phase 2 complete. Name picked: Zagoorr. Repo chosen, pushing everything.**
+**Phase 4 complete. Logo chosen and in the app and repo. Pushing Phase 3 + 4 docs now.**
 
 - Plan: complete
 - 5 decisions: complete
-- Phase 1 prototype: complete and live
-- Phase 2: complete and live
+- Phase 1 prototype: complete and live, pushed to GitHub
+- Phase 2: complete and live, pushed to GitHub
+- Phase 3: complete and live
+- Phase 4: complete and live
+- Logo: chosen 2026-11-16 — coral-orange loop icon, storefront on top, chat on the right, delivery boxes at the bottom, calendar on the left. Brand colour #FF6B4A. In the app header, portal header, and white-label preview. In the repo at assets/zagoorr-logo.webp (commits 44228ea, 9257d91).
 - Name: Zagoorr, zagoorr.com — picked 2026-11-16, domain not yet purchased, trademark not cleared
-- GitHub: https://github.com/rankint360/Zagoorr-CRM — verified 2026-11-16, public, main branch, was empty at verification
-- Phase 3: not started
+- GitHub: https://github.com/rankint360/Zagoorr-CRM — includes plan PDF, README, STATUS, Record Register, and assets/zagoorr-logo.webp. Phase 3 + 4 docs push in progress.
 
 ## Name
 
@@ -66,25 +68,35 @@ Delivered on top of the Phase 1 prototype:
 
 Payments remain tracking-only and on hold, per Decision 3. Client portal logins are staged for Phase 3.
 
-Open from Phase 2 delivery: final rendering check at phone and desktop widths.
+Open from Phase 2 delivery: final rendering check at phone and desktop widths — closed in Phase 4, exit audit covered phone/desktop rendering.
+
+## Phase 3 — complete, 2026-11-16
+
+Delivered: client portal logins, public API tab with API keys, Integrations tab (QuickBooks, Xero, Google/Outlook Calendar, Slack, Teams, Zapier, Make), workflow builder that actually runs, custom fields and custom objects, Teams & roles permission matrix, white-label portal (portal.zagoorr.com), multi-currency and tax on invoices (tracking-only), AI assists (ticket summaries, reply drafts, lead enrichment). Payments stayed on hold.
+
+## Phase 4 — complete, 2026-11-16
+
+Polish and review, chosen by Linkoo over go-live. Fixed a real bug: all 19 delete/revoke buttons used a browser confirm() dialog that did nothing in-app — now in-page two-tap confirms. Added success/error toasts, closed loop gaps (deals can be marked Lost, orders can be cancelled, Storefront empty state, contact loading state), raised sub-36px tap targets, updated stale Phase 3 labels. Full loop re-verified end-to-end.
+
+## Logo — chosen, 2026-11-16
+
+Coral-orange loop icon, storefront on top, chat on the right, delivery boxes at the bottom, calendar on the left. Brand colour #FF6B4A. In the app header, portal header, and white-label preview. In the repo at assets/zagoorr-logo.webp. Other variants made the same day: teal-blue full logo, coral, violet, emerald, and rose icons.
 
 ## Coming steps
 
-1. **Push everything to GitHub** — complete 2026-11-16: README, plan outline, STATUS.md, Record Register pushed to rankint360/Zagoorr-CRM, commit 0ec4b3e1a.
+1. **Push Phase 3 + 4 docs and logo record to GitHub** — in progress 2026-11-16: updated README, STATUS.md, Record Register to rankint360/Zagoorr-CRM.
 2. **Buy zagoorr.com** — register the domain, and do trademark clearance before launch.
-3. **Linkoo review of Phase 2** — walk a test client through lead-to-cash, order-to-delivery, and support-to-renewal.
+3. **Linkoo review** — walk a test client through lead-to-cash, order-to-delivery, and support-to-renewal.
 4. **Service details** — Linkoo to provide exact Digital Marketing, SEO, and Link Building package details after build is complete; update the service catalogue.
-5. **Phase 3 — Scale (not started):** Public API and integrations (accounting, calendar, chat, Zapier / Make-style connectors); advanced workflow builder, custom objects, multi-team permissions; white-label portal (own domain, branding), multi-currency and tax handling; AI assists where they earn it (ticket summaries, reply drafts, lead enrichment).
-6. **Payments decision** — choose provider (Stripe or alternative), currencies, and tax regions before deploy final.
-7. **Deploy final** — commit to production build with the Phase 1 exit test as definition of done: one real service sold, paid, onboarded, delivered, and supported entirely in the system.
+5. **Payments decision** — choose provider (Stripe or alternative), currencies, and tax regions before deploy final.
+6. **Deploy final** — commit to production build with the Phase 1 exit test as definition of done: one real service sold, paid, onboarded, delivered, and supported entirely in the system.
 
 ## Open items / holds
 
 - **Payments:** On hold until build and deploy are final — Decision 3.
 - **Service details:** Pending from Linkoo after build is complete — Decision 4.
 - **Domain:** zagoorr.com not yet purchased. Trademark not cleared.
-- **GitHub repo:** rankint360/Zagoorr-CRM, verified and in use. Prototype is a hosted fullstack app in Muse and cannot be exported as a single .html file, so the repo holds the plan, records, and README — not the prototype server code.
-- **Phase 2 rendering:** Final check at phone and desktop widths still open.
+- **GitHub repo:** rankint360/Zagoorr-CRM, verified and in use. Prototype is a hosted fullstack app in Muse and cannot be exported as a single .html file, so the repo holds the plan, records, README, and logo — not the prototype server code.
 
 ## How to update this file
 

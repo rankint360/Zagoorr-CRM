@@ -181,6 +181,37 @@ This register is the chronological source of truth. Every step — past and plan
 - **Step:** Linkoo said: "push it there everything"
 - **Status:** Complete. Pushed README.md, docs/STATUS.md, docs/RECORD_REGISTER.md, docs/combined-crm-plan-outline.md to rankint360/Zagoorr-CRM, branch main, commit 0ec4b3e1ad3d654db7a3afcc6063d0c24863a86b, verified by re-reading README, STATUS and Record Register from GitHub. Prototype is a hosted fullstack app and cannot be exported to a single .html file, so its server code is not in the push — the repo documents the prototype instead. Plan PDF binary was not pushed via the text-file API; outline is in the repo.
 
+### R-31 — Browser push: plan PDF via GitHub web UI
+- **Date:** 2026-11-16
+- **Step:** Linkoo said: "Push it using built in browser, I have given you repo login credentials."
+- **Status:** Complete. Browser signed in as rankint360 with saved GitHub login (2FA code supplied by Linkoo), uploaded via GitHub web UI. Commit 66b806f89fb03c09441fc04dc015e1ef9835e109 "Add plan PDF via browser" added docs/combined-crm-plan.pdf (145 KB, new) and replaced docs/STATUS.md and docs/RECORD_REGISTER.md. Commit 7c5de058b14451f35c8a9f8ababfacdb111d0120 "Update README via browser" recorded 0 file changes (README identical). Verified via docs folder listing and commit diff pages. Repo now has 4 commits.
+
+### R-32 — Phase 3 build
+- **Date:** 2026-11-16
+- **Step:** Linkoo said: "Phase 1, 2 are built and pushed to GitHub repo. Build Phase 3 now and push to repo."
+- **Status:** Complete. Delivered 2026-11-16 07:03 PST.
+- **Delivered:** Client portal logins, public API tab with API keys, Integrations tab (QuickBooks, Xero, Google/Outlook Calendar, Slack, Teams, Zapier, Make), workflow builder that actually runs (deal-won → create order verified), custom fields and custom objects, Teams & roles permission matrix, white-label portal (portal.zagoorr.com, brand colour), multi-currency and tax on invoices (tracking-only), AI assists (ticket summaries, reply drafts, lead enrichment).
+- **Verification:** Sandbox verified portal login, API key masked after first show, settings round-trip, custom field round-trip, Slack integration, GBP invoice with 20% tax, AI ticket summary. Core loop re-verified. Production still starts fresh, 3 services seeded.
+- **Open:** Visual check of new tabs at phone/desktop widths. Docs push to repo pending at delivery.
+
+### R-33 — Phase 4 build: Polish and review first
+- **Date:** 2026-11-16
+- **Step:** Linkoo said: "build phase 4 and push to repo." Then chose "Phase 4 = Polish and review first" (Phase 4 was not in the original 3-phase plan).
+- **Status:** Complete. Delivered 2026-11-16 07:13 PST.
+- **Delivered:** Fixed all 19 delete/revoke buttons that used browser confirm() and did nothing in-app (now in-page two-tap confirms), added success/error toasts, closed loop gaps (deals can be marked Lost, orders can be cancelled, Storefront empty state, contact loading state), raised sub-36px tap targets, updated stale Phase 3 labels.
+- **Verification:** Full loop re-verified end-to-end in sandbox, exit audit covered phone/desktop rendering. Production still starts fresh.
+- **Next:** Push Phase 3 + Phase 4 docs to rankint360/Zagoorr-CRM.
+
+### R-34 — Logo chosen and applied
+- **Date:** 2026-11-16
+- **Step:** Linkoo asked Muse to create a logo for Zagoorr, tried several colours, then picked the coral-orange icon-only version and said yes to using it in the app and the repo.
+- **Status:** Complete.
+- **Logo:** Coral-orange to amber looping orbit on dark navy, four white icons — storefront on top, chat on the right, delivery boxes at the bottom, calendar on the left. Brand colour #FF6B4A.
+- **Variants made the same day:** teal-blue full logo, coral, violet, emerald, and rose icons.
+- **In the app:** Header mark next to "Zagoorr", Client Portal header mark, Settings white-label preview. Verified at desktop and phone widths, no broken assets, no console errors.
+- **In the repo:** assets/zagoorr-logo.webp, uploaded via browser, commit 44228ea "Add Zagoorr logo", renamed to that path in commit 9257d91. Verified on the file page.
+- **Next:** Push updated README, STATUS.md, and this Record Register (Phase 3 + 4 + logo) to rankint360/Zagoorr-CRM.
+
 ## How to use this register
 
 - Add a new R-number for every new step, in order.
