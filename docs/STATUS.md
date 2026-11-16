@@ -8,7 +8,7 @@
 
 ## Current status
 
-**Phase 4 complete. Logo chosen and in the app and repo. Pushing Phase 3 + 4 docs now.**
+**Phase 4 complete. Logo chosen and in the app and repo. Phase 3 + 4 docs pushed.**
 
 - Plan: complete
 - 5 decisions: complete
@@ -18,7 +18,7 @@
 - Phase 4: complete and live
 - Logo: chosen 2026-11-16 — coral-orange loop icon, storefront on top, chat on the right, delivery boxes at the bottom, calendar on the left. Brand colour #FF6B4A. In the app header, portal header, and white-label preview. In the repo at assets/zagoorr-logo.webp (commits 44228ea, 9257d91).
 - Name: Zagoorr, zagoorr.com — picked 2026-11-16, domain not yet purchased, trademark not cleared
-- GitHub: https://github.com/rankint360/Zagoorr-CRM — includes plan PDF, README, STATUS, Record Register, and assets/zagoorr-logo.webp. Phase 3 + 4 docs push in progress.
+- GitHub: https://github.com/rankint360/Zagoorr-CRM — includes plan PDF, README, STATUS, Record Register, and assets/zagoorr-logo.webp. Phase 3 + 4 docs pushed, commit 693614d.
 
 ## Name
 
@@ -84,7 +84,7 @@ Coral-orange loop icon, storefront on top, chat on the right, delivery boxes at 
 
 ## Coming steps
 
-1. **Push Phase 3 + 4 docs and logo record to GitHub** — in progress 2026-11-16: updated README, STATUS.md, Record Register to rankint360/Zagoorr-CRM.
+1. **Push Phase 3 + 4 docs and logo record to GitHub** — complete 2026-11-16, commit 693614d.
 2. **Buy zagoorr.com** — register the domain, and do trademark clearance before launch.
 3. **Linkoo review** — walk a test client through lead-to-cash, order-to-delivery, and support-to-renewal.
 4. **Service details** — Linkoo to provide exact Digital Marketing, SEO, and Link Building package details after build is complete; update the service catalogue.

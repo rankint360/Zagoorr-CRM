@@ -212,6 +212,11 @@ This register is the chronological source of truth. Every step — past and plan
 - **In the repo:** assets/zagoorr-logo.webp, uploaded via browser, commit 44228ea "Add Zagoorr logo", renamed to that path in commit 9257d91. Verified on the file page.
 - **Next:** Push updated README, STATUS.md, and this Record Register (Phase 3 + 4 + logo) to rankint360/Zagoorr-CRM.
 
+### R-35 — Push Phase 3 + 4 + logo docs to GitHub
+- **Date:** 2026-11-16
+- **Step:** Push updated README.md, docs/STATUS.md, docs/RECORD_REGISTER.md, docs/combined-crm-plan-outline.md to rankint360/Zagoorr-CRM, branch main.
+- **Status:** Complete. Commit 693614dd8fcb30ef1447afc45e4c8919e8d2f9c8 "Zagoorr: Phase 3 + Phase 4 + logo — README, STATUS.md, Record Register, plan outline", 2026-11-16 16:46 UTC. Verified by listing commits from GitHub — it is the latest commit, on top of the logo commits 44228ea and 9257d91. The push tool timed out after 120s, but the commit had already landed; verified, not retried blindly.
+
 ## How to use this register
 
 - Add a new R-number for every new step, in order.
