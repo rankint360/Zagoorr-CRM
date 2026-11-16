@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@zagoorr/auth": "*",
+    "@zagoorr/db": "*",
+    "@zagoorr/ui": "*",
+    "next": "^14.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "description": "Zagoorr client portal \u2014 portal.zagoorr.com. Clients log in with email + access code and see only their own orders, delivery progress, invoices (view-only, payments on hold) and tickets.",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "typescript": "^5.6.0"
+  },
+  "name": "zagoorr-portal",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev -p 3002",
+    "start": "next start -p 3002",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "version": "1.0.0"
+}
